@@ -1,0 +1,153 @@
+body {
+    background: rgb(123, 221, 208);
+    text-align: center;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#main {
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 40px;
+    font-family: Raleway;
+}
+
+#description {
+    font-size: 30px;
+    padding: 25px;
+}
+
+#name-label {
+    padding: 10px;
+}
+
+#name {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+}
+
+#email-label {
+    padding: 10px;
+}
+
+#email {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+}
+
+#number-label {
+    padding: 10px;
+}
+
+#age {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+}
+
+.label {
+    width: 50%;
+    text-align: right;
+    padding-left: 30px;
+}
+
+.field {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.field #age {
+    width: 266px;
+}
+
+.field select {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(224, 221, 221);
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.field .front {
+    display: block;
+    margin-top: 25px;
+}
+
+.field .back {
+    display: block;
+}
+
+.field .block {
+    display: block;
+}
+
+.field .visualization {
+    display: block;
+}
+
+.field .challenges {
+    display: block;
+}
+
+.community {
+    display: block;
+}
+
+.rooms {
+    display: block;
+}
+
+.submission input {
+    width: 150px;
+    background-color: rgb(4, 180, 224);
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.submission input:hover {
+    animation-name: background-color;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: #0960ac;
+    }
+}
+
+textarea {
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+    margin-top: 12px;
+}
